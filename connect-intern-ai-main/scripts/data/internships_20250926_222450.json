@@ -1,0 +1,34 @@
+[
+  {
+    "id": "4126722502538299999",
+    "company": "Sample Tech Company",
+    "title": "Software Development Intern",
+    "type": "paid",
+    "mode": "online",
+    "duration": "3-6 months",
+    "location": "Remote",
+    "stipend": "₹15,000 - ₹25,000 per month",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "Web Development"
+    ],
+    "description": "Work on exciting projects with our development team."
+  },
+  {
+    "id": "3426691801191594780",
+    "company": "Data Analytics Corp",
+    "title": "Data Science Intern",
+    "type": "paid",
+    "mode": "offline",
+    "duration": "6 months",
+    "location": "Bangalore, Karnataka",
+    "stipend": "₹20,000 - ₹30,000 per month",
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "Data Analysis"
+    ],
+    "description": "Analyze large datasets and build machine learning models."
+  }
+]

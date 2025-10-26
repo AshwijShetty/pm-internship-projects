@@ -1,0 +1,310 @@
+[
+  {
+    "application": {
+      "deadline": "2025-10-26",
+      "documents_required": [
+        "Resume",
+        "Cover Letter"
+      ],
+      "link": "https://example.com/apply/sample1",
+      "process": "Apply through the provided link"
+    },
+    "application_link": "#",
+    "apply_by": "2025-10-26",
+    "company": {
+      "name": "Tech Innovators Inc",
+      "sector": "Information Technology",
+      "size": "Not specified"
+    },
+    "description": {
+      "perks": [
+        "Certificate",
+        "Letter of Recommendation",
+        "Flexible work hours"
+      ],
+      "responsibilities": [],
+      "skills_you_will_learn": [
+        "React",
+        "Node.js"
+      ],
+      "summary": "Work on cutting-edge web applications using modern technologies...."
+    },
+    "duration": "Not specified",
+    "experience_required": "Fresher",
+    "id": "sample_1",
+    "job_details": {
+      "deadline": "2025-10-26",
+      "duration": "6 months",
+      "experience_required": "Fresher",
+      "openings": 1,
+      "posted_date": "2025-09-26",
+      "start_date": "Immediate",
+      "stipend": "₹25,000 - ₹35,000 per month",
+      "type": "Internship"
+    },
+    "job_type": "Internship",
+    "location": {
+      "city": "Bangalore, India",
+      "type": "onsite"
+    },
+    "metadata": {
+      "applications": 0,
+      "featured": true,
+      "premium": false,
+      "quality_score": 1.0,
+      "scraped_at": "2025-09-26T22:24:50.220271",
+      "source": "PM Internship Portal",
+      "verified": false,
+      "views": 0
+    },
+    "posted_date": "2025-09-26",
+    "requirements": {
+      "education": [
+        "Any Graduate",
+        "Any Post Graduate"
+      ],
+      "experience": "Fresher",
+      "languages": [
+        "English"
+      ],
+      "skills": [
+        {
+          "name": "Python",
+          "required": true
+        },
+        {
+          "name": "JavaScript",
+          "required": true
+        },
+        {
+          "name": "React",
+          "required": true
+        },
+        {
+          "name": "Node.js",
+          "required": true
+        }
+      ]
+    },
+    "sector": "Information Technology",
+    "skills": [
+      "React",
+      "Node.Js",
+      "Javascript",
+      "Python"
+    ],
+    "stipend": "₹25,000 - ₹35,000 per month",
+    "title": "Software Development Intern",
+    "type": "Internship"
+  },
+  {
+    "application": {
+      "deadline": "2025-11-10",
+      "documents_required": [
+        "Resume",
+        "Cover Letter"
+      ],
+      "link": "https://example.com/apply/sample2",
+      "process": "Apply through the provided link"
+    },
+    "application_link": "#",
+    "apply_by": "2025-11-10",
+    "company": {
+      "name": "Data Insights Ltd",
+      "sector": "Data Science",
+      "size": "Not specified"
+    },
+    "description": {
+      "perks": [
+        "Certificate",
+        "Letter of Recommendation",
+        "Flexible work hours"
+      ],
+      "responsibilities": [],
+      "skills_you_will_learn": [
+        "Machine Learning",
+        "Pandas",
+        "NumPy",
+        "Data Analysis"
+      ],
+      "summary": "Work with our data science team to analyze large datasets and build ML models...."
+    },
+    "duration": "Not specified",
+    "experience_required": "Fresher",
+    "id": "sample_2",
+    "job_details": {
+      "deadline": "2025-11-10",
+      "duration": "3 months",
+      "experience_required": "0-1 years",
+      "openings": 1,
+      "posted_date": "2025-09-26",
+      "start_date": "Immediate",
+      "stipend": "₹20,000 - ₹30,000 per month",
+      "type": "Internship"
+    },
+    "job_type": "Internship",
+    "location": {
+      "city": "Remote",
+      "type": "remote"
+    },
+    "metadata": {
+      "applications": 0,
+      "featured": false,
+      "premium": false,
+      "quality_score": 1.0,
+      "scraped_at": "2025-09-26T22:24:50.220908",
+      "source": "PM Internship Portal",
+      "verified": false,
+      "views": 0
+    },
+    "posted_date": "2025-09-26",
+    "requirements": {
+      "education": [
+        "Any Graduate",
+        "Any Post Graduate"
+      ],
+      "experience": "0-1 years",
+      "languages": [
+        "English"
+      ],
+      "skills": [
+        {
+          "name": "Python",
+          "required": true
+        },
+        {
+          "name": "Machine Learning",
+          "required": true
+        },
+        {
+          "name": "Pandas",
+          "required": true
+        },
+        {
+          "name": "NumPy",
+          "required": true
+        },
+        {
+          "name": "Data Analysis",
+          "required": true
+        }
+      ]
+    },
+    "sector": "Data Science",
+    "skills": [
+      "Numpy",
+      "Pandas",
+      "Machine Learning",
+      "Data Analysis",
+      "Python"
+    ],
+    "stipend": "₹20,000 - ₹30,000 per month",
+    "title": "Data Science Intern",
+    "type": "Internship"
+  },
+  {
+    "application": {
+      "deadline": "2025-10-16",
+      "documents_required": [
+        "Resume",
+        "Cover Letter"
+      ],
+      "link": "https://example.com/apply/sample3",
+      "process": "Apply through the provided link"
+    },
+    "application_link": "#",
+    "apply_by": "2025-10-16",
+    "company": {
+      "name": "WebCraft Solutions",
+      "sector": "Web Development",
+      "size": "Not specified"
+    },
+    "description": {
+      "perks": [
+        "Certificate",
+        "Letter of Recommendation",
+        "Flexible work hours"
+      ],
+      "responsibilities": [],
+      "skills_you_will_learn": [
+        "HTML",
+        "CSS",
+        "React",
+        "UI/UX"
+      ],
+      "summary": "Assist in developing responsive web interfaces and improve user experience...."
+    },
+    "duration": "Not specified",
+    "experience_required": "Fresher",
+    "id": "sample_3",
+    "job_details": {
+      "deadline": "2025-10-16",
+      "duration": "4 months",
+      "experience_required": "Fresher",
+      "openings": 1,
+      "posted_date": "2025-09-26",
+      "start_date": "Immediate",
+      "stipend": "₹15,000 - ₹25,000 per month",
+      "type": "Internship"
+    },
+    "job_type": "Internship",
+    "location": {
+      "city": "Hybrid",
+      "type": "hybrid"
+    },
+    "metadata": {
+      "applications": 0,
+      "featured": true,
+      "premium": false,
+      "quality_score": 1.0,
+      "scraped_at": "2025-09-26T22:24:50.220961",
+      "source": "PM Internship Portal",
+      "verified": false,
+      "views": 0
+    },
+    "posted_date": "2025-09-26",
+    "requirements": {
+      "education": [
+        "Any Graduate",
+        "Any Post Graduate"
+      ],
+      "experience": "Fresher",
+      "languages": [
+        "English"
+      ],
+      "skills": [
+        {
+          "name": "HTML",
+          "required": true
+        },
+        {
+          "name": "CSS",
+          "required": true
+        },
+        {
+          "name": "JavaScript",
+          "required": true
+        },
+        {
+          "name": "React",
+          "required": true
+        },
+        {
+          "name": "UI/UX",
+          "required": true
+        }
+      ]
+    },
+    "sector": "Web Development",
+    "skills": [
+      "React",
+      "Ui/Ux",
+      "Html",
+      "Css",
+      "Javascript"
+    ],
+    "stipend": "₹15,000 - ₹25,000 per month",
+    "title": "Frontend Development Intern",
+    "type": "Internship"
+  }
+]

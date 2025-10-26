@@ -1,0 +1,187 @@
+[
+  {
+    "data": {
+      "application": {
+        "deadline": "Not specified",
+        "documents_required": [
+          "Resume",
+          "Cover Letter"
+        ],
+        "link": "",
+        "process": "Apply through the provided link"
+      },
+      "apply_by": "Not specified",
+      "company": {
+        "name": "Sample Tech Company",
+        "sector": "Information Technology",
+        "size": "Not specified"
+      },
+      "description": {
+        "perks": [
+          "Certificate",
+          "Letter of Recommendation",
+          "Flexible work hours"
+        ],
+        "responsibilities": [],
+        "skills_you_will_learn": [
+          "Web Development"
+        ],
+        "summary": "Work on exciting projects with our development team...."
+      },
+      "job_details": {
+        "deadline": "Not specified",
+        "duration": "3-6 months",
+        "experience_required": "Fresher",
+        "openings": 1,
+        "posted_date": "2025-09-26",
+        "start_date": "Immediate",
+        "stipend": "₹15,000 - ₹25,000 per month",
+        "type": "Internship"
+      },
+      "location": {
+        "city": "Remote",
+        "relocation_assistance": false,
+        "type": "remote"
+      },
+      "metadata": {
+        "applications": 0,
+        "featured": false,
+        "premium": false,
+        "quality_score": 0.9,
+        "scraped_at": "2025-09-26T21:22:32.793608",
+        "source": "PM Internship Portal",
+        "verified": false,
+        "views": 0
+      },
+      "posted_date": "2025-09-26",
+      "requirements": {
+        "education": [
+          "Any Graduate",
+          "Any Post Graduate"
+        ],
+        "experience": "0 years",
+        "languages": [
+          "English"
+        ],
+        "skills": [
+          {
+            "name": "Python",
+            "required": true
+          },
+          {
+            "name": "JavaScript",
+            "required": true
+          },
+          {
+            "name": "Web Development",
+            "required": true
+          }
+        ]
+      },
+      "sector": "Information Technology",
+      "skills": [
+        "Python",
+        "JavaScript",
+        "Web Development"
+      ],
+      "stipend": "₹15,000 - ₹25,000 per month",
+      "title": "Software Development Intern",
+      "type": "Internship"
+    },
+    "internship": "unknown",
+    "reason": "Missing required fields: ['id']"
+  },
+  {
+    "data": {
+      "application": {
+        "deadline": "Not specified",
+        "documents_required": [
+          "Resume",
+          "Cover Letter"
+        ],
+        "link": "",
+        "process": "Apply through the provided link"
+      },
+      "apply_by": "Not specified",
+      "company": {
+        "name": "Data Analytics Corp",
+        "sector": "Information Technology",
+        "size": "Not specified"
+      },
+      "description": {
+        "perks": [
+          "Certificate",
+          "Letter of Recommendation",
+          "Flexible work hours"
+        ],
+        "responsibilities": [],
+        "skills_you_will_learn": [
+          "Machine Learning",
+          "Data Analysis"
+        ],
+        "summary": "Analyze large datasets and build machine learning models...."
+      },
+      "job_details": {
+        "deadline": "Not specified",
+        "duration": "6 months",
+        "experience_required": "Fresher",
+        "openings": 1,
+        "posted_date": "2025-09-26",
+        "start_date": "Immediate",
+        "stipend": "₹20,000 - ₹30,000 per month",
+        "type": "Internship"
+      },
+      "location": {
+        "city": "Bangalore, Karnataka",
+        "relocation_assistance": false,
+        "type": "onsite"
+      },
+      "metadata": {
+        "applications": 0,
+        "featured": false,
+        "premium": false,
+        "quality_score": 0.9,
+        "scraped_at": "2025-09-26T21:22:32.798755",
+        "source": "PM Internship Portal",
+        "verified": false,
+        "views": 0
+      },
+      "posted_date": "2025-09-26",
+      "requirements": {
+        "education": [
+          "Any Graduate",
+          "Any Post Graduate"
+        ],
+        "experience": "0 years",
+        "languages": [
+          "English"
+        ],
+        "skills": [
+          {
+            "name": "Python",
+            "required": true
+          },
+          {
+            "name": "Machine Learning",
+            "required": true
+          },
+          {
+            "name": "Data Analysis",
+            "required": true
+          }
+        ]
+      },
+      "sector": "Information Technology",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "Data Analysis"
+      ],
+      "stipend": "₹20,000 - ₹30,000 per month",
+      "title": "Data Science Intern",
+      "type": "Internship"
+    },
+    "internship": "unknown",
+    "reason": "Missing required fields: ['id']"
+  }
+]

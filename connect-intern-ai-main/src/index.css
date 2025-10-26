@@ -1,0 +1,185 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* PM Internship Scheme Design System - Government Portal Theme
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Government India Color Palette */
+    --background: 0 0% 100%;
+    --foreground: 210 15% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 15% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 15% 20%;
+
+    /* Government Blue Primary */
+    --primary: 215 85% 27%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 215 85% 22%;
+
+    /* India Orange Accent */
+    --accent: 25 95% 58%;
+    --accent-foreground: 0 0% 100%;
+    --accent-hover: 25 95% 53%;
+
+    /* Government Gray Secondary */
+    --secondary: 210 15% 96%;
+    --secondary-foreground: 210 15% 20%;
+
+    --muted: 210 15% 96%;
+    --muted-foreground: 210 10% 55%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 15% 90%;
+    --input: 210 15% 96%;
+    --ring: 215 85% 27%;
+
+    --radius: 0.5rem;
+
+    /* Success Green */
+    --success: 140 85% 35%;
+    --success-foreground: 0 0% 100%;
+
+    /* Warning Yellow */
+    --warning: 45 95% 55%;
+    --warning-foreground: 210 15% 20%;
+
+    /* Government Portal Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(215 85% 27%), hsl(215 85% 22%));
+    --gradient-hero: linear-gradient(135deg, hsl(215 85% 27%), hsl(25 95% 58%));
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(210 15% 98%));
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
+
+@layer components {
+  /* Government Portal Animation Utilities */
+  .scroll-animate {
+    animation: scroll-right 30s linear infinite;
+  }
+
+  @keyframes scroll-right {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
+
+  /* Custom Government Components */
+  .gov-header {
+    @apply bg-gradient-to-r from-primary to-accent text-primary-foreground;
+  }
+
+  .gov-card {
+    @apply bg-card border border-border rounded-lg shadow-sm hover:shadow-md transition-all duration-300;
+  }
+
+  .gov-button-primary {
+    @apply bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-md font-medium transition-colors;
+  }
+
+  .gov-button-accent {
+    @apply bg-accent hover:bg-accent/90 text-accent-foreground px-6 py-3 rounded-md font-medium transition-colors;
+  }
+
+  .gov-input {
+    @apply w-full px-4 py-3 border border-border rounded-md bg-input text-foreground focus:ring-2 focus:ring-primary focus:border-transparent;
+  }
+
+  .gov-select {
+    @apply w-full px-4 py-3 border border-border rounded-md bg-input text-foreground focus:ring-2 focus:ring-primary focus:border-transparent cursor-pointer;
+  }
+
+  /* Internship Card Styles */
+  .internship-card {
+    @apply bg-card border border-border rounded-lg p-6 hover:shadow-lg transition-all duration-300 hover:border-primary/20;
+  }
+
+  .company-logo {
+    @apply w-16 h-16 rounded-lg object-cover border border-border;
+  }
+
+  /* Language Selector */
+  .language-dropdown {
+    @apply relative inline-block text-left;
+  }
+
+  /* Mobile Responsive Utilities */
+  .mobile-nav {
+    @apply lg:hidden fixed inset-x-0 top-0 z-50 bg-background border-b border-border;
+  }
+
+  /* Accessibility Focus Styles */
+  .focus-visible\:gov-focus:focus-visible {
+    @apply outline-none ring-2 ring-primary ring-offset-2 ring-offset-background;
+  }
+}
